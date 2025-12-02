@@ -4,6 +4,7 @@ A portfolio of advanced academic projects completed during the Georgia Tech Mast
 ### 🎬 Project Demonstration: Provides Project UI Overview and Results
 
 **[WATCH DEMO](https://www.youtube.com/watch?v=sdoLxDfRqGM) Healthcare NLP Platform Walkthrough**
+**[FINAL REPORT](Healthcare-NLP-Decision-Support/Docs/)
 
 ## MEDMAP: The NLP-Driven Healthcare Visualization Tool
 ### DESCRIPTION ###
