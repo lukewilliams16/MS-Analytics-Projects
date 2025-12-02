@@ -90,5 +90,6 @@ NAVIGATING THE MEDMAP UI
 --> Tab 4: About -- This tab provides a description of each feature of the MedMap tool.
 
 </details>
-## 2) BAM FINAL REPORT ##
+
+## 1) [BAM Final Report](Healthcare-NLP-Decision-Support/)
 
