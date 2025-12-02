@@ -38,8 +38,11 @@ These packages should be compatible with Python 3.9-3.11. If your version of Pyt
 
 COMPONENTS
 -data folder: contains the input data file and will store output data as the pipeline is executed
+
 -model_objects folder: contains the clustering model object
+
 -abbreviations.json: a mapping file to consolidate spelled-out words and abbreviations in the clinical text data
+
 -requirements.txt: contains required packages for MedMap to run
 -EHRExecutor.py: Computes clusters for PatientMatcher feature of MedMap (imported by ehr_runner notebook)
 -EHRProcessor.py: Performs NLP pre-processing and transformations on the data to get it ready for modeling (imported by ehr_runner notebook)
