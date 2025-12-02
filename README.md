@@ -1,7 +1,7 @@
 # MS-Analytics-Projects
 A portfolio of advanced academic projects completed during the Georgia Tech Master of Science in Analytics program. 
 
-## 1) MEDMAP: The NLP-Driven Healthcare Visualization Tool
+## 1) [MEDMAP: The NLP-Driven Healthcare Visualization Tool](Healthcare-NLP-Decision-Support/)
 
 **[🎬 WATCH DEMO](https://www.youtube.com/watch?v=sdoLxDfRqGM) Healthcare NLP Overview and Results Walkthrough**
 
