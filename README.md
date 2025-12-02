@@ -3,6 +3,5 @@ A portfolio of advanced academic projects completed during the Georgia Tech Mast
 
 ### 🎬 Project Demonstration
 
-**[WATCH DEMO] Healthcare NLP Platform Walkthrough**
+**[WATCH DEMO](https://www.youtube.com/watch?v=sdoLxDfRqGM) Healthcare NLP Platform Walkthrough**
 
-`(https://www.youtube.com/watch?v=sdoLxDfRqGM)`
