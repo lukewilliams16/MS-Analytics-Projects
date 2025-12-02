@@ -87,5 +87,5 @@ NAVIGATING THE MEDMAP UI
 
 --> Tab 3: Visualization -- This tab provides two primary visuals: (1) A bar graph of chronic disease breakdown within the provided EHR data showing counts of patients with and without these conditions and (2) A histogram of number of prior office visits broken out by gender with an option for the user to select different Service types.
 
---> Tab 4: About -- This tab provides a description of each feature of the MedMap tool.<details>
+--> Tab 4: About -- This tab provides a description of each feature of the MedMap tool.
 
