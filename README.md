@@ -6,7 +6,8 @@ A portfolio of advanced academic projects completed during the Georgia Tech Mast
 **[🎬 WATCH DEMO](https://www.youtube.com/watch?v=sdoLxDfRqGM) Healthcare NLP Overview and Results Walkthrough**
 
 **[FINAL REPORT](Healthcare-NLP-Decision-Support/Docs/) Technical Report and Final Presentation Slides**
-
+<details>
+<summary>View Detailed Project Description (Click to Expand)</summary>
 ### DESCRIPTION ###
 MedMap is a user-friendly NLP-driven interactive healthcare visualization tool that enables healthcare providers to quickly access patient information with key word highlighting and draw comparisons among patients with similar conditions to enhance clinical decision-making and targeted treatment plans. MedMap aims to simplify time-consuming interactions with Electronic Health Records (EHRs) to improve clinical productivity and patient and physician satisfaction.
 
@@ -85,5 +86,5 @@ NAVIGATING THE MEDMAP UI
 
 --> Tab 3: Visualization -- This tab provides two primary visuals: (1) A bar graph of chronic disease breakdown within the provided EHR data showing counts of patients with and without these conditions and (2) A histogram of number of prior office visits broken out by gender with an option for the user to select different Service types.
 
---> Tab 4: About -- This tab provides a description of each feature of the MedMap tool.
+--> Tab 4: About -- This tab provides a description of each feature of the MedMap tool.<details>
 
