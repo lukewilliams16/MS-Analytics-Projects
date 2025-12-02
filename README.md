@@ -91,5 +91,7 @@ NAVIGATING THE MEDMAP UI
 
 </details>
 
-## 2) [BAM Final Report](Healthcare-NLP-Decision-Support/)
+## 2) [BAM Final Report](BAM/BAM_Final_Report.pdf)
+**Weather-Driven Sentiment Analysis using Machine Learning: Balyasny Asset Management (BAM)**
+*Note: Due to firm confidentiality, this document contains the final findings, methodology, and results, but **does not include the proprietary code or raw data***.
 
