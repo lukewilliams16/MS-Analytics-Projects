@@ -38,7 +38,7 @@ These packages should be compatible with Python 3.9-3.11. If your version of Pyt
 
 COMPONENTS
 
--[data folder](/Code/data): contains the input data file and will store output data as the pipeline is executed
+-[data folder](Code/data): contains the input data file and will store output data as the pipeline is executed
 
 -model_objects folder: contains the clustering model object
 
