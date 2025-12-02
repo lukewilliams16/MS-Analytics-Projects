@@ -5,7 +5,7 @@ A portfolio of advanced academic projects completed during the Georgia Tech Mast
 
 **[🎬 WATCH DEMO](https://www.youtube.com/watch?v=sdoLxDfRqGM) Healthcare NLP Overview and Results Walkthrough**
 
-**[FINAL REPORT](Healthcare-NLP-Decision-Support/Docs/) Technical Report and Final Presentation Slides**
+**FINAL REPORT: [Technical Report](Healthcare-NLP-Decision-Support/Docs/team050report.pdf) and [Final Presentation Slides](Healthcare-NLP-Decision-Support/Docs/team050poster.pdf)**
 <details>
 <summary>View Detailed Project Description (Click to Expand)</summary>
 	
