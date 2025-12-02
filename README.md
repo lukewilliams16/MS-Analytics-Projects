@@ -37,6 +37,7 @@ These packages should be compatible with Python 3.9-3.11. If your version of Pyt
 ### EXECUTION ###
 
 COMPONENTS
+
 -data folder: contains the input data file and will store output data as the pipeline is executed
 
 -model_objects folder: contains the clustering model object
@@ -44,22 +45,37 @@ COMPONENTS
 -abbreviations.json: a mapping file to consolidate spelled-out words and abbreviations in the clinical text data
 
 -requirements.txt: contains required packages for MedMap to run
+
 -EHRExecutor.py: Computes clusters for PatientMatcher feature of MedMap (imported by ehr_runner notebook)
+
 -EHRProcessor.py: Performs NLP pre-processing and transformations on the data to get it ready for modeling (imported by ehr_runner notebook)
+
 -ehr_runner_and_clustering.ipynb: Jupyter notebook that runs EHRExecutor.py and EHRProcessor.py to generate required data and model objects as required inputs for the MedMap UI
+
 -TargetMatcher.py: Contains custom chronic disease rules for MedSpacy (imported by SpacyUI.py)
+
 -SpacyUI.py: Spins up the UI for the MedMap Tool (final product)
 
 HOW TO RUN
+
 1) Run ehr_runner_and_clustering.ipynb to clean, preprocess, and generate train/test data and compute clusters for the PatientMatcher feature. This will call to the EHRExecutor.py and EHRProcessor.py files. All required outputs will show up in the data and model_objects folders and these will be loaded in appropriately when the SpacyUI is executed.
-2) Run SpacyUI.py to spin up the MedMap tool in a UI window. 
+   
+2) Run SpacyUI.py to spin up the MedMap tool in a UI window.
+   
 --> a) Open a terminal.
+
 --> b) Navigate to the folder this py file is contained in.
+
 --> c) Type the command: streamlit run SpacyUI.py
+
 3) A new browser window will open with a "Running..." icon in the upper right corner. Wait a few seconds for all the tabs to show up. 
 
 NAVIGATING THE MEDMAP UI
+
 --> Tab 1: Report -- This tab allows the user to type in a Patient ID and displays that patient's clinical data using the MedSpacy highlighting feature for easy access of key information and visual skimming.
+
 --> Tab 2: Patient Matcher -- This tool allows the user to type in a Patient ID and displays the most similar patients (computed using a clustering algorithm, TFIDF vectorizaton, and cosine similarity). Another dropdown allows the user to select a similar patient and displays that similar patient's clinical data on the Patient Matcher tab to compare to the main patient's clinical data on the Report tab.
+
 --> Tab 3: Visualization -- This tab provides two primary visuals: (1) A bar graph of chronic disease breakdown within the provided EHR data showing counts of patients with and without these conditions and (2) A histogram of number of prior office visits broken out by gender with an option for the user to select different Service types.
+
 --> Tab 4: About -- This tab provides a description of each feature of the MedMap tool.
