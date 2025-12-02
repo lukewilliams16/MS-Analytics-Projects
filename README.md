@@ -91,5 +91,5 @@ NAVIGATING THE MEDMAP UI
 
 </details>
 
-## 1) [BAM Final Report](Healthcare-NLP-Decision-Support/)
+## 2) [BAM Final Report](Healthcare-NLP-Decision-Support/)
 
