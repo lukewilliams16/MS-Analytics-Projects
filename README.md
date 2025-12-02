@@ -40,21 +40,21 @@ COMPONENTS
 
 -[data folder](Healthcare-NLP-Decision-Support/Code/data/): contains the input data file and will store output data as the pipeline is executed
 
--model_objects folder: contains the clustering model object
+-[model_objects folder](Healthcare-NLP-Decision-Support/Model_Objectives/): contains the clustering model object
 
--abbreviations.json: a mapping file to consolidate spelled-out words and abbreviations in the clinical text data
+-[abbreviations.json](Healthcare-NLP-Decision-Support/Code/abbreviations.json): a mapping file to consolidate spelled-out words and abbreviations in the clinical text data
 
--requirements.txt: contains required packages for MedMap to run
+-[requirements.txt](Healthcare-NLP-Decision-Support/Code/requirements.txt): contains required packages for MedMap to run
 
--EHRExecutor.py: Computes clusters for PatientMatcher feature of MedMap (imported by ehr_runner notebook)
+-[EHRExecutor.py](Healthcare-NLP-Decision-Support/Code/EHRExecutor.py): Computes clusters for PatientMatcher feature of MedMap (imported by ehr_runner notebook)
 
--EHRProcessor.py: Performs NLP pre-processing and transformations on the data to get it ready for modeling (imported by ehr_runner notebook)
+-[EHRProcessor.py](Healthcare-NLP-Decision-Support/Code/EHRProcessor.py): Performs NLP pre-processing and transformations on the data to get it ready for modeling (imported by ehr_runner notebook)
 
--ehr_runner_and_clustering.ipynb: Jupyter notebook that runs EHRExecutor.py and EHRProcessor.py to generate required data and model objects as required inputs for the MedMap UI
+-[ehr_runner_and_clustering.ipynb](Healthcare-NLP-Decision-Support/Code/ehr_runner_and_clustering.ipynb): Jupyter notebook that runs EHRExecutor.py and EHRProcessor.py to generate required data and model objects as required inputs for the MedMap UI
 
--TargetMatcher.py: Contains custom chronic disease rules for MedSpacy (imported by SpacyUI.py)
+-[TargetMatcher.py](Healthcare-NLP-Decision-Support/Code/TargetMatcher.py): Contains custom chronic disease rules for MedSpacy (imported by SpacyUI.py)
 
--SpacyUI.py: Spins up the UI for the MedMap Tool (final product)
+-[SpacyUI.py](Healthcare-NLP-Decision-Support/Code/SpacyUI.py): Spins up the UI for the MedMap Tool (final product)
 
 HOW TO RUN
 
