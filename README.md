@@ -91,8 +91,8 @@ NAVIGATING THE MEDMAP UI
 
 </details>
 
-## 2) [Weather-Driven Sentiment Analysis using Machine Learning: BAM Final Report](BAM/BAM_Final_Report.pdf)
-**Balyasny Asset Management (BAM)**
+## 2) [Weather-Driven Sentiment Analysis using Machine Learning](BAM/BAM_Final_Report.pdf)
+**Balyasny Asset Management (BAM) Final Report**
 
 *Note: Due to firm confidentiality, this document contains the final findings, methodology, and results, but **does not include the proprietary code or raw data***.
 
