@@ -1,5 +1,5 @@
 # MS-Analytics-Projects
-A portfolio of advanced academic projects completed during the Georgia Tech Master of Science in Analytics program. 
+A portfolio of advanced academic projects completed during the Georgia Tech Master of Science in Analytics program including in my internship at BAM. 
 
 ## 1) [MEDMAP: The NLP-Driven Healthcare Visualization Tool](Healthcare-NLP-Decision-Support/)
 
